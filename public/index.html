@@ -10,16 +10,7 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
   <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   <link rel="manifest" href="/manifest.json">
-  <script>
-    /* global navigator */
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-        .register('sw.js')
-        .then(() => console.log('Service worker is working.'));
-    } else {
-      console.log('Service workers are not available.')
-    }
-  </script>
+  <script type="text/javascript" src="/app.js"></script>
 </head>
 <body>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
