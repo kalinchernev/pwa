@@ -1,0 +1,16 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "Playground for PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Kalin Chernev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}

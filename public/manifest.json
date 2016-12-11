@@ -1,0 +1,27 @@
+{
+  "short_name": "EvApp",
+  "name": "Evolution App",
+  "description": "Progressive web application",
+  "icons": [{
+    "src": "favicomatic/favicon-32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "favicomatic/favicon-96x96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "favicomatic/apple-touch-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "favicomatic/favicon-196x196.png",
+    "sizes": "196x196",
+    "type": "image/png"
+  }],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#29BDBB",
+  "background_color": "#29BDBB"
+}
