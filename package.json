@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "gulp"
   },
   "author": "Kalin Chernev",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "del": "^2.2.2",
     "express": "^4.14.0",
-    "nodemon": "^1.11.0"
+    "gh-pages": "^0.11.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.4.0",
+    "run-sequence": "^1.2.2",
+    "sw-precache": "^4.2.3"
   }
 }
